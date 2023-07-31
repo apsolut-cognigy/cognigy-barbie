@@ -1,0 +1,108 @@
+/**
+ * Place your custom CSS styles here.
+  --color-dark: #162d3d;
+  var(--main-bg-color);
+ **/
+
+:root {
+    --body-bg: #e1e3b7;
+    --body-color: #1b1b1b;
+    --color-one: #FA2D83;
+    --color-two: #FCC733;
+    --color-dark: #232323;
+    --color-black: #010810;
+    --color-gray: #66737c;
+    --color-gray-light: #dddddd;
+    --color-green: #18a843;
+    --color-white: #ffffff;
+    --color-light: #e1e3b7;
+    --color-brand: #e6552d;
+    --color-brand-dark: #bd3914;
+}
+
+
+body {
+    background: var(--body-bg);
+    color: var(--body-color);
+}
+.hs-site-page #popup {
+    background: var(--color-one);
+}
+.hs-site-page #popup p,
+.hs-site-page #popup a {
+    color: var(--color-white) !important;
+}
+body #cta_button_2761836_77044616-7138-4568-9aec-22d90ed31fb2,
+body a#cta_button_2761836_68ab807f-430c-4698-91dd-d30c73cdb50f {
+    background: var(--color-one) !important;
+    color: var(--color-white) !important;
+    border-color: var(--color-one) !important;
+}
+body #cta_button_2761836_623bd22b-cf2d-4388-b441-c19573c1c20c {
+    color: var(--color-one) !important;
+    border-color: var(--color-one) !important;
+}
+body a#cta_button_2761836_35ed6b56-023c-4c0d-ab26-cfbad62efa47,
+body #hs-cta-d7e7c38b-e63b-479b-acb8-41c952b03ba0,
+body a#cta_button_2761836_e4b260cf-4f89-401e-9444-393d1ea4f49b,
+body a#cta_button_2761836_bfc4924c-9bfd-4215-92e1-ceb333ffff80,
+body a#cta_button_2761836_937b86eb-6eaf-4967-9bdc-0820b7e87894,
+body a#cta_button_2761836_d1ce7290-9762-4bf0-8d88-6457c96df5c9,
+body a#cta_button_2761836_dc4a16a7-24af-4e71-8ed3-5c5f6cd2cb1e,
+body a#cta_button_2761836_dc4a16a7-24af-4e71-8ed3-5c5f6cd2cb1e,
+body a#cta_button_2761836_043c7c39-4ed1-419d-9a6c-1a7a0d18be6e {
+    border-color: var(--color-one) !important;
+    color: var(--color-one) !important;
+}
+body section.hero-banner-new h1 span {
+    background: var(--color-one) !important;
+    color: var(--color-white) !important;
+    background-size: 300% !important;
+    -webkit-background-clip: text !important;
+}
+
+
+#hs_cos_wrapper_widget_1689148643143 .icon-liftup-banner-module {
+    background: var(--color-two) !important;
+    color: var(--color-white) !important;
+}
+#hs_cos_wrapper_widget_1689148643143 .icon-liftup-banner-module .liftup-item a:hover {
+    background: var(--color-black) !important;
+    color: var(--color-white) !important;
+}
+
+#hs_cos_wrapper_widget_1689148643143 .icon-liftup-banner-module .liftup-item img {
+    filter: invert(1);
+}
+#hs_cos_wrapper_widget_1689148643143 .icon-liftup-banner-module .liftup-item a {
+    border-color: var(--color-white) !important;
+}
+#hs_cos_wrapper_widget_1689148643143 .icon-liftup-banner-module .liftup-item {
+    color: var(--color-black) !important;
+}
+
+#hs_cos_wrapper_widget_1688459891052 section.hero-banner-new .hero_banner_gradient_purple {
+    background: #E0218A;
+    background: linear-gradient(to bottom, #E0218A 0%, #D1127B 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E0218A), color-stop(100%, #D1127B)) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0218A', endColorstr='#D1127B', GradientType=0);
+    border: 1px solid #C2036C;
+    box-shadow: inset 0 1px 0 #EF3099;
+    -webkit-box-shadow: inset 0 1px 0 #EF3099;
+    -moz-box-shadow: inset 0 1px 0 #EF3099;
+}
+#video-sec2 {
+    background: var(--color-one) !important;
+}
+body .flip-box-back {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E0218A), color-stop(100%, #D1127B)) !important;
+}
+body .animatedTextBackground,
+body section.harness-the-power h2 span,
+body content__grid h4 {
+    color: var(--color-one) !important;
+}
+
+/*html:not(img){*/
+/*    filter: invert(100%) hue-rotate(180deg);*/
+/*}*/

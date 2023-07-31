@@ -1,0 +1,39 @@
+
+{
+  "name": "Prototype: Cognigy Dark",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "description": "This extension was created with the awesome aleksandarperisic.com",
+  "homepage_url": "https://www.cognigy.com/",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+
+  "optional_permissions": [
+    "contentSettings"
+  ],
+  "host_permissions": [
+    "https://www.cognigy.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.cognigy.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.cognigy.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
