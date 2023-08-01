@@ -7,7 +7,7 @@
 :root {
     --body-bg: #e1e3b7;
     --body-color: #1b1b1b;
-    --color-one: #FA2D83;
+    --color-one: #e01b6e;
     --color-two: #FCC733;
     --color-dark: #232323;
     --color-black: #010810;
@@ -42,6 +42,7 @@ body #cta_button_2761836_623bd22b-cf2d-4388-b441-c19573c1c20c {
     color: var(--color-one) !important;
     border-color: var(--color-one) !important;
 }
+
 body a#cta_button_2761836_35ed6b56-023c-4c0d-ab26-cfbad62efa47,
 body #hs-cta-d7e7c38b-e63b-479b-acb8-41c952b03ba0,
 body a#cta_button_2761836_e4b260cf-4f89-401e-9444-393d1ea4f49b,
@@ -54,6 +55,12 @@ body a#cta_button_2761836_043c7c39-4ed1-419d-9a6c-1a7a0d18be6e {
     border-color: var(--color-one) !important;
     color: var(--color-one) !important;
 }
+
+body a#cta_button_2761836_333fac52-ed66-4ab8-9889-6c6fc1f37c11 {
+    border-color: var(--color-one) !important;
+    color: var(--color-one) !important;
+}
+
 body section.hero-banner-new h1 span {
     background: var(--color-one) !important;
     color: var(--color-white) !important;
@@ -94,13 +101,54 @@ body section.hero-banner-new h1 span {
 #video-sec2 {
     background: var(--color-one) !important;
 }
-body .flip-box-back {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E0218A), color-stop(100%, #D1127B)) !important;
-}
+
 body .animatedTextBackground,
 body section.harness-the-power h2 span,
 body content__grid h4 {
     color: var(--color-one) !important;
+}
+li.hs-menu-item.hs-menu-depth-1.dropdown.activated > a,
+li.hs-menu-item.hs-menu-depth-1.dropdown:after,
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-one) !important;
+}
+.header-section .menu-container ul li a:hover {
+    color: var(--color-one) !important;
+}
+section.analyst-recognition .elipses-gradient,
+.meet-our-champions .elipses-bottom-left,
+.meet-our-champions .elipses-top-right {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E0218A), color-stop(100%, #910954)) !important;
+}
+
+.box-item:not(.box-item-last) .flip-box-front .inner {
+    background: linear-gradient(0deg,#d61780 28%,rgba(2,90,251,0)) !important;
+}
+.flip-read-more {
+    background: linear-gradient(0deg,#d61780 28%,rgba(2,90,251,0)) !important;
+}
+#hs_cos_wrapper_widget_1689163233436 .number-liftups-2022-module_item:before {
+    background: linear-gradient(180deg,var(--color-two),var(--color-one)) !important;
+}
+#hs_cos_wrapper_widget_1689163233436 .number-liftups-2022-module {
+    background: var(--color-two) !important;
+    color: var(--color-white) !important;
+}
+#video-sec2 h2 {
+    color: var(--color-black) !important;
+}
+body .flip-box-back,
+body .box-item-last .flip-box-front:after {
+    background: linear-gradient(180deg,var(--color-two),var(--color-one)) !important;
+}
+
+section.analyst-recognition h2 span,
+h2.text-center span,
+section.harness-the-power h2 span {
+    background: -webkit-linear-gradient(left,var(--color-one),var(--color-two)) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    background-size: 300%;
 }
 
 /*html:not(img){*/
